@@ -1,0 +1,42 @@
+{
+    "name": "vpv-shopify-theme",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "repository": "https://github.com/verbalplusvisual/vpv-shopify-base-theme",
+    "scripts": {
+        "build": "gulp build",
+        "deploy": "gulp deploy",
+        "update": "gulp update",
+        "watch": "gulp watch"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@babel/core": "^7.1.2",
+        "@babel/preset-env": "^7.1.0",
+        "@shopify/themekit": "^0.6.12",
+        "autoprefixer": "^8.6.0",
+        "browser-sync": "^2.24.4",
+        "chalk": "^2.4.1",
+        "del": "^3.0.0",
+        "gulp": "^4.0.0",
+        "gulp-changed": "^3.2.0",
+        "gulp-flatten": "^0.4.0",
+        "gulp-parcel": "^0.3.5",
+        "gulp-plumber": "^1.2.0",
+        "gulp-postcss": "^7.0.1",
+        "gulp-rename": "^1.2.3",
+        "gulp-replace": "^1.0.0",
+        "gulp-sass": "^4.0.1",
+        "gulp-shopify-theme": "^1.1.3",
+        "gulp-svg-sprite": "^1.4.0",
+        "node-sass": "^4.9.0",
+        "parcel-bundler": "^1.8.1",
+        "shopify-themekit": "^0.1.3"
+    },
+    "dependencies": {
+        "babel-core": "^6.26.3"
+    }
+}

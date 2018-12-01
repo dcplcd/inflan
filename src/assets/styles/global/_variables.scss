@@ -1,0 +1,25 @@
+/*==== Grid ===*/
+
+// Gutter size
+$gutter: 12px;
+
+// Grid size
+$number-of-columns: 12;
+
+// Breakpoints
+$xs-break: 375px;
+$sm-break: 768px;
+$md-break: 1024px;
+$lg-break: 1440px;
+
+/*==== Colors ===*/
+$primary-color: #563CE7; // VPV ULTRA-VIOLET
+$black: #000;
+
+/*==== Typography ====*/
+$base-font-size: 16px;
+$karla: 'Karla', sans-serif;
+
+/*=== UI Kit ====*/
+$ui-kit-banner-background: $primary-color;
+$ui-kit-banner-title-color: white;
